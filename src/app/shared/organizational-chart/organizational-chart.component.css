@@ -1,0 +1,10 @@
+.rect {
+  fill: lightblue;
+  stroke: black;
+  stroke-width: 3;
+}
+.lig{
+  fill: transparent;
+  stroke: black;
+  stroke-width: 3;
+}

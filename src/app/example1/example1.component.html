@@ -1,0 +1,12 @@
+<app-angular-icon></app-angular-icon>
+
+<app-progress [value]="value"></app-progress>
+
+
+<svg width="400" height="180">
+  <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+        style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+  <foreignObject class="node" x="60" y="30" width="100" height="100">
+    <xhtml:div ><app-progress [value]="value"></app-progress></xhtml:div>
+  </foreignObject>
+</svg>
