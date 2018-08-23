@@ -1,10 +1,10 @@
 .rect {
-  fill: lightblue;
-  stroke: black;
-  stroke-width: 3;
+  fill: white;
 }
 .lig{
   fill: transparent;
   stroke: black;
-  stroke-width: 3;
+  stroke-width: 1;
+}
+.node {
 }

@@ -1,0 +1,11 @@
+<div class="zone" (mouseenter)="showIcon=true" (mouseleave)="showIcon=false">
+  <div class="text" >
+    {{label}}
+  </div>
+  <div class="icons" *ngIf="showIcon" >
+    <i class="fa fa-pencil"></i>
+    <i class="fa fa-trash"></i>
+    <i class="fa fa-plus"></i>
+  </div>
+</div>
+

@@ -1,4 +1,9 @@
-<svg height="500" width="500">
+<svg [attr.height]="maxHeight" [attr.width]="maxWidth">
   <rect *ngFor="let r of rectList" [attr.x]="r.x" [attr.y]="r.y" [attr.width]="r.width" [attr.height]="r.height" rx="5" ry="5" class="rect" />
   <path *ngFor="let p of pathList" [attr.d]="p.d" class="lig" />
+  <foreignObject class="node" *ngFor="let r of rectList" [attr.x]="r.x" [attr.y]="r.y" [attr.width]="r.width" [attr.height]="r.height">
+    <xhtml:div [style.width.px]="r.width" [style.height.px]="r.height" >
+      <app-organizational-chart-item [style.width.px]="r.width-2" [style.height.px]="r.height-2" [label]="r.label"></app-organizational-chart-item >
+    </xhtml:div>
+  </foreignObject>
 </svg>

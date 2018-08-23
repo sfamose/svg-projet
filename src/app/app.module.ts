@@ -8,6 +8,7 @@ import {OrganizationalChartComponent} from './shared/organizational-chart/organi
 import {Example1Component} from './example1/example1.component';
 import {Example2Component} from './example2/example2.component';
 import {Example3Component} from './example3/example3.component';
+import { OrganizationalChartItemComponent } from './shared/organizational-chart-item/organizational-chart-item.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {Example3Component} from './example3/example3.component';
     OrganizationalChartComponent,
     Example1Component,
     Example2Component,
-    Example3Component
+    Example3Component,
+    OrganizationalChartItemComponent
   ],
   imports: [
     BrowserModule,

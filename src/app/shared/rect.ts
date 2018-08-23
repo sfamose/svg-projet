@@ -3,4 +3,5 @@ export class Rect {
   public y: number;
   public width: number;
   public height: number;
+  public label: string;
 }
